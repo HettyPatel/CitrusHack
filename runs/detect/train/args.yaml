@@ -1,11 +1,11 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: /home/hpate061/CitrusHack/TACO:-Trash-Annotations-in-Context-Dataset-2/data.yaml
-epochs: 50
+data: /home/hpate061/CitrusHack/TACO-dataset-15/data.yaml
+epochs: 100
 patience: 50
 batch: 16
-imgsz: 550
+imgsz: 416
 save: true
 save_period: -1
 cache: false

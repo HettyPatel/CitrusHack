@@ -1,0 +1,12 @@
+names:
+- trash
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: taco-dataset-ql1ng
+  url: https://universe.roboflow.com/taco-t7kkz/taco-dataset-ql1ng/dataset/15
+  version: 15
+  workspace: taco-t7kkz
+test: test/images
+train: train/images
+val: valid/images
